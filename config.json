@@ -1,0 +1,42 @@
+{
+  "autosave": true,
+  "background": true,
+  "cpu": {
+    "enabled": true,
+    "huge-pages": true,
+    "max-threads-hint": 75,
+    "priority": 3
+  },
+  "randomx": {
+    "1gb-pages": false,
+    "rdmsr": true,
+    "wrmsr": true,
+    "numa": true
+  },
+  "opencl": false,
+  "cuda": false,
+  "pools": [
+    {
+      "url": "gulf.miningocean.org:10128",
+      "user": "44dBW5YourMoneroWalletHere",
+      "pass": "x",
+      "coin": "monero",
+      "keepalive": true,
+      "tls": false
+    }
+  ],
+  "retries": 5,
+  "retry-pause": 5,
+  "verbose": 1,
+  "print-time": 60,
+  "dns": {
+    "ipv6": false,
+    "ttl": 30
+  },
+  "api": {
+    "id": null,
+    "worker-id": null,
+    "port": 0,
+    "access-token": null
+  }
+}
